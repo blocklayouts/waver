@@ -1,0 +1,136 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Orange",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Primary 50",
+          "slug": "primary-50",
+          "color": "#FFF2E2"
+        },
+        {
+          "name": "Primary 100",
+          "slug": "primary-100",
+          "color": "#FFE2BE"
+        },
+        {
+          "name": "Primary 200",
+          "slug": "primary-200",
+          "color": "#FFD29A"
+        },
+        {
+          "name": "Primary 300",
+          "slug": "primary-300",
+          "color": "#FFC276"
+        },
+        {
+          "name": "Primary 400",
+          "slug": "primary-400",
+          "color": "#FFB251"
+        },
+        {
+          "name": "Primary 500",
+          "slug": "primary-500",
+          "color": "#FFA22D"
+        },
+        {
+          "name": "Primary 600",
+          "slug": "primary-600",
+          "color": "#FF9209"
+        },
+        {
+          "name": "Primary 700",
+          "slug": "primary-700",
+          "color": "#B56C10"
+        },
+        {
+          "name": "Primary 800",
+          "slug": "primary-800",
+          "color": "#6C4616"
+        },
+        {
+          "name": "Primary 900",
+          "slug": "primary-900",
+          "color": "#22201D"
+        },
+        {
+          "name": "Secondary 50",
+          "slug": "secondary-50",
+          "color": "#FAFAFA"
+        },
+        {
+          "name": "Secondary 100",
+          "slug": "secondary-100",
+          "color": "#DEDFE0"
+        },
+        {
+          "name": "Secondary 200",
+          "slug": "secondary-200",
+          "color": "#C2C3C5"
+        },
+        {
+          "name": "Secondary 300",
+          "slug": "secondary-300",
+          "color": "#A7A8AB"
+        },
+        {
+          "name": "Secondary 400",
+          "slug": "secondary-400",
+          "color": "#8B8C91"
+        },
+        {
+          "name": "Secondary 500",
+          "slug": "secondary-500",
+          "color": "#6F7176"
+        },
+        {
+          "name": "Secondary 600",
+          "slug": "secondary-600",
+          "color": "#53555C"
+        },
+        {
+          "name": "Secondary 700",
+          "slug": "secondary-700",
+          "color": "#404147"
+        },
+        {
+          "name": "Secondary 800",
+          "slug": "secondary-800",
+          "color": "#2C2D31"
+        },
+        {
+          "name": "Secondary 900",
+          "slug": "secondary-900",
+          "color": "#19191C"
+        },
+        {
+          "name": "Main",
+          "slug": "main",
+          "color": "#020617"
+        },
+        {
+          "name": "Base",
+          "slug": "base",
+          "color": "#fff"
+        },
+        {
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "transparent"
+        },
+        {
+          "name": "Current",
+          "slug": "current",
+          "color": "currentcolor"
+        },
+        {
+          "name": "Inherit",
+          "slug": "inherit",
+          "color": "inherit"
+        }
+      ]
+    }
+  }
+}
