@@ -69,7 +69,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">Customizable </p>
+<p class="has-secondary-500-color has-text-color">Customizable</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
