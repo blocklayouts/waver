@@ -5,7 +5,7 @@
  * @package waver
  * @author  Yahya Qara
  * @link https://blocklayouts.com/product/waver/
- * @since 1.1.0
+ * @since 1.2.0
  */
 
 namespace waver;
@@ -22,7 +22,7 @@ if ( ! function_exists( 'waver_setup' ) ) {
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
-	 * @since 1.1.0
+	 * @since 1.2.0
 	 * @return void
 	 */
 	function waver_setup() {
@@ -57,7 +57,7 @@ if ( ! function_exists( 'waver_pattern_categories' ) ) :
 /**
  * Register pattern categories
 *
-* @since 1.1.0
+* @since 1.2.0
 * @return void
 */
 function waver_pattern_categories() {
