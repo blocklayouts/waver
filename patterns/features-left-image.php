@@ -15,7 +15,7 @@
 <!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":199,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/projects/waver/wp-content/themes/waver/patterns/images/feature-1.png" alt="" class="wp-image-199"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/feature-1.png"); ?>" alt="" class="wp-image-199"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

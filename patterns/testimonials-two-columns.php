@@ -35,7 +35,7 @@
 <div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"12px"},"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small"}},"backgroundColor":"base","className":"is-style-waver-box-shadow-md","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-waver-box-shadow-md has-base-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:image {"id":340,"width":"50px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost/projects/blocklayouts.theme/wp-content/themes/waver/patterns/images/quote-icon.png" alt="quote" class="wp-image-340" style="width:50px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/quote-icon.png"); ?>" alt="quote" class="wp-image-340" style="width:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
@@ -44,7 +44,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":332,"width":"60px","height":"60px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost/projects/blocklayouts.theme/wp-content/themes/waver/patterns/images/avatar-3.png" alt="avatar" class="wp-image-332" style="border-radius:100px;object-fit:cover;width:60px;height:60px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/avatar-3.png"); ?>" alt="avatar" class="wp-image-332" style="border-radius:100px;object-fit:cover;width:60px;height:60px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
@@ -63,7 +63,7 @@
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"12px"},"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small"}},"backgroundColor":"base","className":"is-style-waver-box-shadow-md","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-waver-box-shadow-md has-base-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:image {"id":340,"width":"50px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost/projects/blocklayouts.theme/wp-content/themes/waver/patterns/images/quote-icon.png" alt="" class="wp-image-340" style="width:50px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/quote-icon.png"); ?>" alt="" class="wp-image-340" style="width:50px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
@@ -72,7 +72,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":332,"width":"60px","height":"60px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost/projects/blocklayouts.theme/wp-content/themes/waver/patterns/images/avatar-6.png" alt="" class="wp-image-332" style="border-radius:100px;object-fit:cover;width:60px;height:60px"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/avatar-6.png"); ?>" alt="" class="wp-image-332" style="border-radius:100px;object-fit:cover;width:60px;height:60px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
