@@ -50,7 +50,7 @@ function waver_welcome_notice() {
 							</a>
 						</div>
 						<div class="col-right">
-							<img class="waver-notice-img" src="<? echo esc_url( get_template_directory_uri() . "/assets/images/waver-notice-welcome.png") ?>" alt="Blocks Image">
+							<img class="waver-notice-img" src="<?php echo esc_url( get_template_directory_uri() . "/assets/images/waver-notice-welcome.png") ?>" alt="Blocks Image">
 						</div>
 					</div>
 				</div>
@@ -71,6 +71,7 @@ function waver_dismiss_notice() {
     update_option('waver_notice_dismissed', true);
     die();
 }
+
 add_action('wp_ajax_waver_dismiss_notice', NS . 'waver_dismiss_notice');
 
 function waver_activate() {

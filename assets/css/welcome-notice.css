@@ -54,7 +54,11 @@
   padding: 0.9rem 2.5rem;
   display: inline-block;
 }
-
+.waver-notice-content .waver-notice-btn:focus {
+  box-shadow: none;
+  outline-offset: -3px;
+  outline: 3px solid #7196ff;
+}
 .waver-notice-content .col-right {
   width: 50%;
   display: flex;
