@@ -36,20 +36,20 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\waver_setup' );
 /**
  * Enqueue styles.
  */
-function enqueue_style_sheet() {
+function waver_enqueue_style_sheet() {
 
 	$version = wp_get_theme( 'waver' )->get( 'Version' );
 	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/css/style.css', array(), $version );
 }
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\waver_enqueue_style_sheet' );
 
 /**
  * Add editor styles
  */
-function editor_enqueue_style_sheet() {
+function waver_editor_enqueue_style_sheet() {
     wp_enqueue_style( 'editor-style', get_template_directory_uri() . '/assets/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
-add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\editor_enqueue_style_sheet' );
+add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\waver_editor_enqueue_style_sheet' );
 
 
 if ( ! function_exists( 'waver_pattern_categories' ) ) :
