@@ -427,8 +427,14 @@
         },
         ":focus": {
           "color": {
-            "background": "var(--wp--preset--color--primary-700)",
+            "background": "var(--wp--preset--color--primary-600)",
             "text": "var(--wp--preset--color--base)"
+          },
+          "outline": {
+            "offset": "-3px",
+            "width": "3px",
+            "color": "var(--wp--preset--color--primary-200)",
+            "style": "solid"
           }
         }
       },

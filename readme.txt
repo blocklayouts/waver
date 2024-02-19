@@ -25,8 +25,8 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 == Changelog ==
 
 = 1.2.0
-* Add: dark theme
-* Add: Focus style to "get started" button
+* Add: dark style
+* Add: Focus style to buttons
 * Update: Full width template
 * Update: Optimize colors for dark theme
 * Update: Added unique prefixes to all functions
