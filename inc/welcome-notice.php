@@ -21,13 +21,13 @@ function waver_welcome_notice() {
 		wp_enqueue_script('jquery');
 
 		// Register and enqueue welcome-notice.js
-		wp_register_script( 'welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '1.2.0', true );
+		wp_register_script( 'waver-welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '1.2.0', true );
 		$welcome_notice_params = array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 			'welcome_notice_security' => wp_create_nonce( 'waver-welcome-notice-nonce' ),
 		);
-		wp_localize_script( 'welcome-notice-js', 'welcome_notice_params', $welcome_notice_params );
-		wp_enqueue_script( 'welcome-notice-js' );
+		wp_localize_script( 'waver-welcome-notice-js', 'welcome_notice_params', $welcome_notice_params );
+		wp_enqueue_script( 'waver-welcome-notice-js' );
 
 		$get_started_url = "https://blocklayouts.com/";
 		// Check if the notice has been dismissed
