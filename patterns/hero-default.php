@@ -28,8 +28,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"primary-600"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-primary-600-background-color has-background wp-element-button" href="https://blocklayouts.com/product/waver/">Save Time, Launch Faster →</a></div>
+<div class="wp-block-buttons alignwide"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://blocklayouts.com/product/waver/">Save Time, Launch Faster →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -45,7 +45,7 @@
 
 <!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"id":400,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"0px"}},"className":"is-style-waver-box-shadow-md"} -->
-<figure class="wp-block-image size-full has-custom-border is-style-waver-box-shadow-md"><img src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/waver.png"); ?>" alt="waver" class="wp-image-400" style="border-radius:0px"/></figure>
+<figure class="wp-block-image size-full has-custom-border is-style-waver-box-shadow-md"><img src="http://localhost/projects/waver/wp-content/themes/waver/patterns/images/waver.png" alt="waver" class="wp-image-400" style="border-radius:0px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
