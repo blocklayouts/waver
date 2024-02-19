@@ -27,7 +27,7 @@ register_block_style(
     array(
         'name'         => 'dark-code',
         'label'        => __( 'Dark', 'waver' ),
-        'inline_style' => generate_inline_style( $dark_style ),
+        'inline_style' => waver_generate_inline_style( $dark_style ),
     )
 );
 
@@ -36,7 +36,7 @@ register_block_style(
     array(
         'name'         => 'dark-preformatted',
         'label'        => __( 'Dark', 'waver' ),
-        'inline_style' => generate_inline_style( $dark_style ),
+        'inline_style' => waver_generate_inline_style( $dark_style ),
     )
 );
 
@@ -109,7 +109,7 @@ foreach ( $blocks_to_style as $block_name ) {
  * @param array $styles Array of CSS properties and values.
  * @return string Inline CSS style.
  */
-function generate_inline_style( $styles ) {
+function waver_generate_inline_style( $styles ) {
     $inline_style = '';
     foreach ( $styles as $property => $value ) {
         $inline_style .= "$property: $value;";
