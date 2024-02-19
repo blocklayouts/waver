@@ -50,14 +50,54 @@ modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
 of the License, or (at your option) any later version.
 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
 == Resources ==
 
-* avatar-1.png, avatar-2.png, avatar-3.png, avatar-4.png, avatar-5.png, avatar-6.png, avatar-7.png, avatar-8.png - uifaces.co
-* avatar-group.png - https://uifaces.co/
-* logo-1.png, logo-2.png, logo-3.png, logo-4.png, logo-5.png - https://logoipsum.com/
-* Other assets created by Qara Yahya and available via CC0.
+Avatars:
+- avatar-1.png
+- avatar-2.png
+- avatar-3.png
+- avatar-4.png
+- avatar-5.png
+- avatar-6.png
+- avatar-7.png
+- avatar-8.png
+  Source: uifaces.co
 
-* Inter font, (c) 2016 Rasmus, SIL - https://github.com/rsms/inter/blob/master/LICENSE.txt
+Avatar Group:
+- avatar-group.png
+  Source: https://uifaces.co/
 
+Logos:
+- logo-1.png
+- logo-2.png
+- logo-3.png
+- logo-4.png
+- logo-5.png
+  Source: https://logoipsum.com/
 
+Waver Patterns Images:
+- gradient.png
+- Placeholder.png
+- feature-1.png
+- quote-icon.png
+- waver.png
+- check.png
+  Directory: waver/patterns/images/
+  License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+  Source: Created by Qara Yahya
+
+Waver Assets Images:
+- waver-notice-welcome.png
+  License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+  Source: Created by John Doe
+
+Fonts:
+- Inter font
+  License: (c) 2016 Rasmus, SIL
+  Source: https://github.com/rsms/inter/blob/master/LICENSE.txt
 
