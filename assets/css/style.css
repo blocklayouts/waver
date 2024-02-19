@@ -10,11 +10,11 @@ textarea {
   border-style: solid;
   border-width: 1px;
   border-color: var(--wp--preset--color--secondary-300);
-  background-color: var(--wp--preset--color--secondary-50);
   border-radius: var(--wp--custom--border-radius--medium);
   outline: none !important;
   padding: 1rem;
   font-size: 16px;
+  color: currentColor;
 }
 
 input[type="text"]:focus,
@@ -25,9 +25,9 @@ input[type="search"]:focus,
 textarea:focus {
   border-color: var(--wp--preset--color--primary-600) !important;
 }
-
-textarea#comment {
+.wp-block-comments textarea#comment {
   margin-top: 5px;
+  background-color: var(--wp--preset--color--secondary-50);
 }
 
 /**
@@ -65,12 +65,18 @@ dl > * + * {
   background-color: var(--wp--preset--color--secondary-50);
   border-radius: var(--wp--custom--border-radius--medium);
 }
+:where(
+    .wp-block-search__button-inside .wp-block-search__inside-wrapper
+  ):focus-within {
+  border-color: var(--wp--preset--color--primary-600);
+}
 :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
   .wp-block-search__input {
   border: none !important;
   outline: none;
   background-color: initial;
 }
+
 :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
   .wp-block-search__button {
   border-radius: 0;
