@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:cover {"url":"http://localhost/projects/waver/wp-content/themes/waver/patterns/images/gradient.png","id":486,"dimRatio":10,"minHeight":450,"minHeightUnit":"px","isDark":false,"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light" style="min-height:450px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-486" alt="" src="http://localhost/projects/waver/wp-content/themes/waver/patterns/images/gradient.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
+<!-- wp:cover {{"url":<?php echo '"'. esc_url( get_template_directory_uri() . "/patterns/images/gradient.png") . '"';?>,"id":486,"dimRatio":10,"minHeight":450,"minHeightUnit":"px","isDark":false,"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light" style="min-height:450px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-486" alt="" src="<?php echo esc_url( get_template_directory_uri() . "/patterns/images/gradient.png"); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}}} -->
 <h2 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#ffffff;font-size:3rem;font-style:normal;font-weight:700">Let’s not stress for&nbsp;WordPress&nbsp;designs.</h2>
 <!-- /wp:heading -->

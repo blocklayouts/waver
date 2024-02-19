@@ -22,7 +22,7 @@
 
             <!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
-            <!-- wp:social-link {"url":"https://www.instagram.com/blocklayouts","service":"instagram"} /-->
+            <!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
             <!-- wp:social-link {"url":"#","service":"dribbble"} /-->
         </ul>
