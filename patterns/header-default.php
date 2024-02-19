@@ -20,7 +20,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":""} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill","fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-small-font-size"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
+<div class="wp-block-button has-custom-font-size is-style-fill has-small-font-size"><a href="#" class="wp-block-button__link wp-element-button">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
