@@ -1,0 +1,150 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Dark",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Primary 50",
+          "slug": "primary-50",
+          "color": "#14151B"
+        },
+        {
+          "name": "Primary 100",
+          "slug": "primary-100",
+          "color": "#14151B"
+        },
+        {
+          "name": "Primary 200",
+          "slug": "primary-200",
+          "color": "#1A1D28"
+        },
+        {
+          "name": "Primary 300",
+          "slug": "primary-300",
+          "color": "#21273C"
+        },
+        {
+          "name": "Primary 400",
+          "slug": "primary-400",
+          "color": "#28325B"
+        },
+        {
+          "name": "Primary 500",
+          "slug": "primary-500",
+          "color": "#2C3F8D"
+        },
+        {
+          "name": "Primary 600",
+          "slug": "primary-600",
+          "color": "#2B4DDB"
+        },
+        {
+          "name": "Primary 700",
+          "slug": "primary-700",
+          "color": "#748FFC"
+        },
+        {
+          "name": "Primary 800",
+          "slug": "primary-800",
+          "color": "#9DB0FF"
+        },
+        {
+          "name": "Primary 900",
+          "slug": "primary-900",
+          "color": "#E1E6FA"
+        },
+        {
+          "name": "Secondary 50",
+          "slug": "secondary-50",
+          "color": "#19191C"
+        },
+        {
+          "name": "Secondary 100",
+          "slug": "secondary-100",
+          "color": "#2C2D31"
+        },
+        {
+          "name": "Secondary 200",
+          "slug": "secondary-200",
+          "color": "#404147"
+        },
+        {
+          "name": "Secondary 300",
+          "slug": "secondary-300",
+          "color": "#53555C"
+        },
+        {
+          "name": "Secondary 400",
+          "slug": "secondary-400",
+          "color": "#6F7176"
+        },
+        {
+          "name": "Secondary 500",
+          "slug": "secondary-500",
+          "color": "#8B8C91"
+        },
+        {
+          "name": "Secondary 600",
+          "slug": "secondary-600",
+          "color": "#A7A8AB"
+        },
+        {
+          "name": "Secondary 700",
+          "slug": "secondary-700",
+          "color": "#C2C3C5"
+        },
+        {
+          "name": "Secondary 800",
+          "slug": "secondary-800",
+          "color": "#DEDFE0"
+        },
+        {
+          "name": "Secondary 900",
+          "slug": "secondary-900",
+          "color": "#FAFAFA"
+        },
+        {
+          "name": "Main",
+          "slug": "main",
+          "color": "#fff"
+        },
+        {
+          "name": "Base",
+          "slug": "base",
+          "color": "#292929"
+        },
+        {
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "transparent"
+        },
+        {
+          "name": "Current",
+          "slug": "current",
+          "color": "currentcolor"
+        },
+        {
+          "name": "Inherit",
+          "slug": "inherit",
+          "color": "inherit"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "button": {
+        "color": {
+          "text": "var(--wp--preset--color--main)"
+        },
+        ":hover": {
+          "color": {
+            "text": "var(--wp--preset--color--main)"
+          }
+        }
+      }
+    }
+  }
+}
