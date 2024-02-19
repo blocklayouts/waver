@@ -21,7 +21,7 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">Choose the right <span style="color: var(--wp--preset--color--primary-600)">plan</span> for you.</h2>
+<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">Choose the right <span style="color: var(--wp--preset--color--primary-600)">plan</span> for&nbsp;you.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
@@ -47,8 +47,8 @@
 <h2 class="wp-block-heading has-text-align-left has-3-x-large-font-size" style="font-style:normal;font-weight:900">$29/mo</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color has-link-color">Billed Annually</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-300"}}}},"textColor":"secondary-300"} -->
+<p class="has-secondary-300-color has-text-color has-link-color">Billed Annually</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -57,16 +57,16 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-500-color has-text-color has-link-color"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"99px"}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:99px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
 <p class="has-primary-600-color has-text-color has-link-color"><span style="width: 20px; height: 20px; display: flex; justify-content: center; align-items: center;">✓</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature one</p>
+<!-- wp:paragraph -->
+<p>Feature one</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -77,8 +77,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature two</p>
+<!-- wp:paragraph -->
+<p>Feature two</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -103,8 +103,8 @@
 <h2 class="wp-block-heading has-text-align-left has-3-x-large-font-size" style="font-style:normal;font-weight:900">$99/mo</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color has-link-color">Billed Annually</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-300"}}}},"textColor":"secondary-300"} -->
+<p class="has-secondary-300-color has-text-color has-link-color">Billed Annually</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -113,16 +113,16 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-500-color has-text-color has-link-color"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"99px"}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:99px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
 <p class="has-primary-600-color has-text-color has-link-color"><span style="width: 20px; height: 20px; display: flex; justify-content: center; align-items: center;">✓</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature one</p>
+<!-- wp:paragraph -->
+<p>Feature one</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -133,8 +133,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature two</p>
+<!-- wp:paragraph -->
+<p>Feature two</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -145,8 +145,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature three</p>
+<!-- wp:paragraph -->
+<p>Feature three</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -157,8 +157,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature four</p>
+<!-- wp:paragraph -->
+<p>Feature four</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -183,8 +183,8 @@
 <h2 class="wp-block-heading has-text-align-left has-3-x-large-font-size" style="font-style:normal;font-weight:900">$229/mo</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color has-link-color">Billed Annually</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-300"}}}},"textColor":"secondary-300"} -->
+<p class="has-secondary-300-color has-text-color has-link-color">Billed Annually</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -193,16 +193,16 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-secondary-500-color has-text-color has-link-color"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"99px"}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:99px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
 <p class="has-primary-600-color has-text-color has-link-color"><span style="width: 20px; height: 20px; display: flex; justify-content: center; align-items: center;">✓</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature one</p>
+<!-- wp:paragraph -->
+<p>Feature one</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -213,8 +213,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature two</p>
+<!-- wp:paragraph -->
+<p>Feature two</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
