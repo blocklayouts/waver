@@ -15,17 +15,23 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color">Team</p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( 'Team', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">Meet our <span style="color: var(--wp--preset--color--primary-600)">leadership</span></h2>
+<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700"><?php
+        echo sprintf(
+            /* Translators: Meet our leadership */
+            esc_html__( 'Meet our %1$s leadership', 'waver' ),
+            '<span style="color: var(--wp--preset--color--primary-600)">leadership</span>'
+        );
+    ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
-<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.</p>
+<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_x( 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -43,11 +49,11 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600">James D. Seifert</p>
+<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'James D. Seifert', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-400"}}}},"textColor":"secondary-400"} -->
-<p class="has-secondary-400-color has-text-color has-link-color">SEO &amp; Marketing</p>
+<p class="has-secondary-400-color has-text-color has-link-color"><?php echo esc_html_x( 'SEO & Marketing', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"secondary-400","iconColorValue":"#9ca3af","openInNewTab":true,"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|x-small"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->

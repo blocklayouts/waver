@@ -14,11 +14,11 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">Latest articles</h2>
+<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700"><?php echo esc_html_x( 'Latest articles', 'waver' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
-<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400">Explore WordPress development and design through blog posts, articles, and tutorials.</p>
+<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_x( 'Explore WordPress development and design through blog posts, articles, and tutorials.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

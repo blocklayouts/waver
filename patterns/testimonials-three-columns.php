@@ -16,13 +16,19 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color">Testimonials</p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( 'Testimonials', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">We have worked with <span style="color: var(--wp--preset--color--primary-600)">thousands</span> of amazing people.</h2>
+<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700"><?php
+        echo sprintf(
+            /* Translators: We have worked with thousands*/
+            esc_html__( 'We have worked with %1$s  of amazing people.', 'waver' ),
+            '<span style="color: var(--wp--preset--color--primary-600)">thousands</span>'
+        );
+    ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -45,13 +51,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Jackson Smith</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Jackson Smith','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"Absolutely in love with this WordPress theme! The design is sleek, and the customization options are endless. It's like having a personal designer at my fingertips."</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"Absolutely in love with this WordPress theme! The design is sleek, and the customization options are endless. It\'s like having a personal designer at my fingertips."', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -67,13 +73,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Liam Davis</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Liam Davis','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"As a non-techy person, finding a user-friendly WordPress theme was crucial for me. This theme exceeded my expectations. It's intuitive, easy to navigate, and makes my website look stunning!"</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"As a non-techy person, finding a user-friendly WordPress theme was crucial for me. This theme exceeded my expectations. It\'s intuitive, easy to navigate, and makes my website look stunning!"', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -91,13 +97,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Ethan Williams</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Ethan Williams','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"I've tried numerous WordPress themes, but this one stands out. The responsiveness is unmatched, and my site looks fantastic on any device. Finally, a theme that truly delivers a seamless user experience."</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"I\'ve tried numerous WordPress themes, but this one stands out. The responsiveness is unmatched, and my site looks fantastic on any device. Finally, a theme that truly delivers a seamless user experience."', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -113,13 +119,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Mason Anderson</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"Kudos to the developers behind this WordPress theme! The attention to detail is impressive. From the clean code to the robust features, it's clear that they understand the needs of website owners."</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"Kudos to the developers behind this WordPress theme! The attention to detail is impressive. From the clean code to the robust features, it\'s clear that they understand the needs of website owners."', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -137,13 +143,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Aiden Johnson</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Aiden Johnson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"I've been using this theme for my blog, and I couldn't be happier. The typography choices and layout options make it stand out from the rest. My content has never looked better!"</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"I\'ve been using this theme for my blog, and I couldn\'t be happier. The typography choices and layout options make it stand out from the rest. My content has never looked better!"', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -159,13 +165,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Mason Anderson</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">"The versatility of this WordPress theme is a game-changer. Whether you're running a blog, portfolio, or e-commerce site, it adapts effortlessly. It's like having multiple themes in one!"</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( '"The versatility of this WordPress theme is a game-changer. Whether you\'re running a blog, portfolio, or e-commerce site, it adapts effortlessly. It\'s like having multiple themes in one!"', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

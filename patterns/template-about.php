@@ -26,34 +26,40 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color">About Us</p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( 'About Us', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-left" style="font-size:3rem;font-style:normal;font-weight:700">Our people make us <span style="color: var(--wp--preset--color--primary-600)">great</span></h2>
+<h2 class="wp-block-heading has-text-align-left" style="font-size:3rem;font-style:normal;font-weight:700"><?php
+        echo sprintf(
+            /* Translators: Our people make us great*/
+            esc_html__( 'Our people make us %1$s for you.', 'waver' ),
+            '<span style="color: var(--wp--preset--color--primary-600)">great</span>'
+        );
+    ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
-<p class="has-text-align-left has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laudantium inventore perspiciatis ex quam aspernatur nulla reprehenderit mollitia voluptates eveniet consequatur placeat...</p>
+<p class="has-text-align-left has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_x( 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laudantium inventore perspiciatis ex quam aspernatur nulla reprehenderit mollitia voluptates eveniet consequatur placeat...', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":"1.1rem","margin":{"top":"2.3rem","bottom":"2.3rem"}}}} -->
 <div class="wp-block-buttons" style="margin-top:2.3rem;margin-bottom:2.3rem"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Read More </a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Read More', 'waver' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"1.1rem","left":"1.1rem"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"0.6rem"},"border":{"right":{"color":"#e5e7eb","width":"1px"},"top":{},"bottom":{},"left":{}}}} -->
 <div class="wp-block-column" style="border-right-color:#e5e7eb;border-right-width:1px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"22px"}}} -->
-<p style="font-size:22px;font-style:normal;font-weight:700">5k+ Sell</p>
+<p style="font-size:22px;font-style:normal;font-weight:700"><?php echo esc_html_x( '5k+ Sell', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#9ca3af"},"elements":{"link":{"color":{"text":"#9ca3af"}}},"typography":{"fontSize":"14px"}}} -->
-<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px">Products</p>
+<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px"><?php echo esc_html_x( 'Products', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -63,17 +69,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#9ca3af"},"elements":{"link":{"color":{"text":"#9ca3af"}}},"typography":{"fontSize":"14px"}}} -->
-<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px">User satisfaction</p>
+<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px"><?php echo esc_html_x( 'User satisfaction', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0.6rem"}}} -->
 <div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"22px"}}} -->
-<p style="font-size:22px;font-style:normal;font-weight:700">15 Years</p>
+<p style="font-size:22px;font-style:normal;font-weight:700"><?php echo esc_html_x( '15 Years', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#9ca3af"},"elements":{"link":{"color":{"text":"#9ca3af"}}},"typography":{"fontSize":"14px"}}} -->
-<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px">Experience</p>
+<p class="has-text-color has-link-color" style="color:#9ca3af;font-size:14px"><?php echo esc_html_x( 'Experience', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

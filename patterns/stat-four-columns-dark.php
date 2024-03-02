@@ -15,7 +15,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color">Happy Customers</p>
+<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Happy Customers', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -27,7 +27,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color">Active Users</p>
+<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Active Users', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -39,7 +39,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color">Highest Rank</p>
+<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Highest Rank', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -51,7 +51,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color">Total Revenue</p>
+<p class="has-text-align-center has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Total Revenue', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

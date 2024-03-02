@@ -23,17 +23,24 @@
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color">👋 Meet Waver</p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( '👋 Meet Waver', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-left" style="font-size:3rem;font-style:normal;font-weight:700">Start your journey with <span style="color: var(--wp--preset--color--primary-600)">Waver</span>.</h2>
+<h2 class="wp-block-heading has-text-align-left" style="font-size:3rem;font-style:normal;font-weight:700"><?php
+        echo sprintf(
+            /* Translators: Start your journey with Waver*/
+            esc_html__( 'Build your creative vision in %1$s', 'waver' ),
+            '<span style="color: var(--wp--preset--color--primary-600)">Waver</span>'
+        );
+    ?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color has-link-color">Waver, is a modern WordPress theme optimized for Full Site Editing, providing a library of pre-built blocks and layouts to create unique and professional websites.</p>
+<p class="has-secondary-500-color has-text-color has-link-color"><?php echo esc_html_x( 'Waver, is a modern WordPress theme optimized for Full Site Editing, providing a library of pre-built blocks and layouts to create unique and professional websites.', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
@@ -45,7 +52,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">User Friendly</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( 'User Friendly', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -57,7 +64,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">Less Code</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( 'Less Code', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -69,7 +76,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-500"} -->
-<p class="has-secondary-500-color has-text-color">Customizable</p>
+<p class="has-secondary-500-color has-text-color"><?php echo esc_html_x( 'Customizable', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

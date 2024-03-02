@@ -15,17 +15,24 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color">Pricing</p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( 'Pricing', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"3rem"}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700">Choose the right <span style="color: var(--wp--preset--color--primary-600)">plan</span> for&nbsp;you.</h2>
+<h2 class="wp-block-heading has-text-align-center" style="font-size:3rem;font-style:normal;font-weight:700"><?php
+        echo sprintf(
+            /* Translators: Choose the right plan for you.*/
+            esc_html__( 'Choose the right  %1$s for you.', 'waver' ),
+            '<span style="color: var(--wp--preset--color--primary-600)">plan</span>'
+        );
+    ?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
-<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.</p>
+<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_x( 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -43,21 +50,21 @@
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"12px"}},"backgroundColor":"secondary-900","className":"is-style-waver-box-shadow-lg","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"center"}} -->
 <div class="wp-block-group is-style-waver-box-shadow-lg has-secondary-900-background-color has-background" style="border-radius:12px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-primary-600-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:600">Premium</h2>
+<h2 class="wp-block-heading has-text-align-left has-primary-600-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Premium', 'waver' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"900"},"elements":{"link":{"color":{"text":"#ffffff"}}},"color":{"text":"#ffffff"}},"fontSize":"3x-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#ffffff;font-style:normal;font-weight:900">$99/mo</h2>
+<h2 class="wp-block-heading has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#ffffff;font-style:normal;font-weight:900"><?php echo esc_html_x( '$99/mo', 'waver' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color has-link-color">Billed Annually</p>
+<p class="has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Billed Annually', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"left","textColor":"secondary-100"} -->
-<p class="has-text-align-left has-secondary-100-color has-text-color">Best for large scale uses and extended redistribution rights.</p>
+<p class="has-text-align-left has-secondary-100-color has-text-color"><?php echo esc_html_x( 'Best for large scale uses and extended redistribution rights.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -70,7 +77,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color">Feature one</p>
+<p class="has-secondary-200-color has-text-color"><?php echo esc_html_x( 'Feature one', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -82,7 +89,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color">Feature two</p>
+<p class="has-secondary-200-color has-text-color"><?php echo esc_html_x( 'Feature two', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -94,7 +101,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color">Feature three</p>
+<p class="has-secondary-200-color has-text-color"><?php echo esc_html_x( 'Feature three', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -106,14 +113,14 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color">Feature four</p>
+<p class="has-secondary-200-color has-text-color"><?php echo esc_html_x( 'Feature four', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"width":100,"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Get Started', 'waver' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -123,21 +130,21 @@
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"12px"}},"className":"is-style-waver-box-shadow","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"center"}} -->
 <div class="wp-block-group is-style-waver-box-shadow" style="border-radius:12px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-x-large-font-size" style="font-style:normal;font-weight:600">Company</h2>
+<h2 class="wp-block-heading has-text-align-left has-x-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Company', 'waver' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"900"}},"fontSize":"3x-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-3-x-large-font-size" style="font-style:normal;font-weight:900">$229/mo</h2>
+<h2 class="wp-block-heading has-text-align-left has-3-x-large-font-size" style="font-style:normal;font-weight:900"><?php echo esc_html_x( '$229/mo', 'waver' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-200"}}}},"textColor":"secondary-200"} -->
-<p class="has-secondary-200-color has-text-color has-link-color">Billed Annually</p>
+<p class="has-secondary-200-color has-text-color has-link-color"><?php echo esc_html_x( 'Billed Annually', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"left","textColor":"secondary-500"} -->
-<p class="has-text-align-left has-secondary-500-color has-text-color">Relevant for multiple users, extended &amp; premium support.</p>
+<p class="has-text-align-left has-secondary-500-color has-text-color"><?php echo esc_html_x( 'Relevant for multiple users, extended &amp; premium support.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -150,7 +157,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature one</p>
+<p class="has-text-color" style="color:#475569"><?php echo esc_html_x( 'Feature one', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -162,14 +169,14 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#475569"}}} -->
-<p class="has-text-color" style="color:#475569">Feature two</p>
+<p class="has-text-color" style="color:#475569"><?php echo esc_html_x( 'Feature two', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
 <div class="wp-block-buttons" style="margin-top:0px;margin-bottom:0px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary-600","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}},"border":{"width":"1px"}},"borderColor":"primary-600","className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-primary-600-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-primary-600-border-color wp-element-button" style="border-width:1px">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill"><a class="wp-block-button__link has-primary-600-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-primary-600-border-color wp-element-button" style="border-width:1px"><?php echo esc_html_x( 'Get Started', 'waver' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
