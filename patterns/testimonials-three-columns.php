@@ -51,7 +51,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Jackson Smith','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Jackson Smith','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -73,7 +73,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Liam Davis','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Liam Davis','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -97,7 +97,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Ethan Williams','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Ethan Williams','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -119,7 +119,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -143,7 +143,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Aiden Johnson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Aiden Johnson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -165,7 +165,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

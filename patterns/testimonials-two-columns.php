@@ -55,7 +55,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Ethan Williams','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Ethan Williams','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"secondary-400","fontSize":"small"} -->
@@ -83,7 +83,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mason Anderson','Name of Person Provided the Testimonial', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"secondary-400","fontSize":"small"} -->
