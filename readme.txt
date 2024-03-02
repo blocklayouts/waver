@@ -24,6 +24,11 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 1.2.1
+Update: Reduce size of gradient.png
+Update: License declaration format
+Fix: Default strings in patterns are not translation ready
+
 = 1.2.0
 * Add: dark style
 * Add: Buttons focus style

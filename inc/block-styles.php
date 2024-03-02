@@ -4,7 +4,7 @@
  *
  * @package waver
  * @author Yahya Qara
- * @since 1.2.0
+ * @since 1.2.1
  */
 
 namespace waver;
