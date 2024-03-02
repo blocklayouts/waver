@@ -15,7 +15,7 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"radius":"6px"},"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-50-background-color has-background" style="border-radius:6px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} -->
-<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_x( 'Team', 'waver' ); ?></p>
+<p class="has-primary-600-color has-text-color has-link-color"><?php echo esc_html_e( 'Team', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -31,7 +31,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"secondary-400","fontSize":"medium"} -->
-<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_x( 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.', 'waver' ); ?></p>
+<p class="has-text-align-center has-secondary-400-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:400"><?php echo esc_html_e( 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat blanditiis repellendus exercitationem enim, consectetur doloremque.', 'waver' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -49,11 +49,11 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'James D. Seifert', 'waver' ); ?></p>
+<p class="has-text-align-center has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_e( 'James D. Seifert', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-400"}}}},"textColor":"secondary-400"} -->
-<p class="has-secondary-400-color has-text-color has-link-color"><?php echo esc_html_x( 'SEO & Marketing', 'waver' ); ?></p>
+<p class="has-secondary-400-color has-text-color has-link-color"><?php echo esc_html_e( 'SEO & Marketing', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"secondary-400","iconColorValue":"#9ca3af","openInNewTab":true,"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|x-small"}}},"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->

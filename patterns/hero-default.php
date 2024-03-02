@@ -37,12 +37,12 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.4"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500"} -->
-<p class="has-text-align-center has-secondary-500-color has-text-color has-link-color" style="line-height:1.4"><?php echo esc_html_x( 'Why spend hours designing from scratch when you can use Waver to build your dream website in minutes? Time-saving and hassle-free!', 'waver' ); ?></p>
+<p class="has-text-align-center has-secondary-500-color has-text-color has-link-color" style="line-height:1.4"><?php echo esc_html_e( 'Why spend hours designing from scratch when you can use Waver to build your dream website in minutes? Time-saving and hassle-free!', 'waver' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons alignwide"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://blocklayouts.com/product/waver/"><?php echo esc_html_x( 'Save Time, Launch Faster →', 'waver' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://blocklayouts.com/product/waver/"><?php echo esc_html_e( 'Save Time, Launch Faster →', 'waver' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

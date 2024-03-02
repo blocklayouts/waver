@@ -13,7 +13,7 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"1.1rem"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|secondary-500"}}}},"textColor":"secondary-500","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-secondary-500-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Dynamic Teams, Trusted Partnerships, Lasting Impact', 'waver' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-secondary-500-color has-text-color has-link-color has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Dynamic Teams, Trusted Partnerships, Lasting Impact', 'waver' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
