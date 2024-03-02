@@ -24,10 +24,16 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 1.2.3
+* Fix: translation function argument count
+
+= 1.2.2
+* Fix: Default strings in patterns are not translation ready
+
 = 1.2.1
-Update: Reduce size of gradient.png
-Update: License declaration format
-Fix: Default strings in patterns are not translation ready
+* Update: Reduce size of gradient.png
+* Update: License declaration format
+* Fix: Default strings in patterns are not translation ready
 
 = 1.2.0
 * Add: dark style
