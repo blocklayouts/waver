@@ -67,47 +67,34 @@ GNU General Public License for more details.
 
 == Resources ==
 
-Avatars:
-- avatar-1.png
-- avatar-2.png
-- avatar-3.png
-- avatar-4.png
-- avatar-5.png
-- avatar-6.png
-- avatar-7.png
-- avatar-8.png
-  Source: uifaces.co
+Inter font
+License: (c) 2016 Rasmus, SIL
+License URL: https://github.com/rsms/inter/blob/master/LICENSE.txt
 
-Avatar Group:
-- avatar-group.png
-  Source: https://uifaces.co/
+Images 
 
-Logos:
-- logo-1.png
-- logo-2.png
-- logo-3.png
-- logo-4.png
-- logo-5.png
-  Source: https://logoipsum.com/
+Avatars
+License: Fair Use License
+License URL: https://uifaces.co/licenses
+avatar-1.png - https://mighty.tools/mockmind-api/content/human/46.jpg
+avatar-2.png - https://mighty.tools/mockmind-api/content/human/75.jpg
+avatar-3.png - https://mighty.tools/mockmind-api/content/human/53.jpg
+avatar-4.png - https://mighty.tools/mockmind-api/content/human/37.jpg
+avatar-5.png - https://mighty.tools/mockmind-api/content/human/57.jpg
+avatar-6.png - https://mighty.tools/mockmind-api/content/human/41.jpg
+avatar-7.png - https://mighty.tools/mockmind-api/content/human/5.jpg
+avatar-8.png - https://mighty.tools/mockmind-api/content/human/7.jpg
 
-Waver Patterns Images:
-- gradient.png
-- Placeholder.png
-- feature-1.png
-- quote-icon.png
-- waver.png
-- check.png
-  Directory: waver/patterns/images/
-  License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-  Source: Created by Qara Yahya
+Logos
+License: Fair Use License
+License URL: https://logoipsum.com/license/
+Logo-1.png - https://logoipsum.com/artwork/325
+Logo-2.png - https://logoipsum.com/artwork/264
+Logo-3.png - https://logoipsum.com/artwork/297
+Logo-4.png - https://logoipsum.com/artwork/253
+Logo-5.png - https://logoipsum.com/artwork/286
 
-Waver Assets Images:
-- waver-notice-welcome.png
-  License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-  Source: Created by John Doe
 
-Fonts:
-- Inter font
-  License: (c) 2016 Rasmus, SIL
-  Source: https://github.com/rsms/inter/blob/master/LICENSE.txt
-
+waver-notice-welcome.png, gradient.png, Placeholder.png, feature-1.png, quote-icon.png, waver.png, check.png - created by Qara Yahya.
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
