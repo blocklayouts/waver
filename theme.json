@@ -25,6 +25,58 @@
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
+      "gradients": [
+        {
+          "slug": "gradient-1",
+          "gradient": "linear-gradient(to right, #ff7e5f, #feb47b)",
+          "name": "Sunset Gradient"
+        },
+        {
+          "slug": "gradient-2",
+          "gradient": "linear-gradient(to right, #ff00cc, #333399)",
+          "name": "Cosmic Fusion"
+        },
+        {
+          "slug": "gradient-3",
+          "gradient": "linear-gradient(to right, #ef32d9, #89fffd)",
+          "name": "Azure Pop"
+        },
+        {
+          "slug": "gradient-4",
+          "gradient": "linear-gradient(to right, #000428, #004e92)",
+          "name": "Frost"
+        },
+        {
+          "slug": "gradient-5",
+          "gradient": "linear-gradient(to right, #42275a, #734b6d)",
+          "name": "Mauve"
+        },
+        {
+          "slug": "gradient-6",
+          "gradient": "linear-gradient(to right, #141e30, #243b55)",
+          "name": "Royal"
+        },
+        {
+          "slug": "gradient-7",
+          "gradient": "linear-gradient(to right, #2c3e50, #4ca1af)",
+          "name": "Deep Sea Space"
+        },
+        {
+          "slug": "gradient-8",
+          "gradient": "linear-gradient(to right, #00d2ff, #928dab)",
+          "name": "Bright Vault"
+        },
+        {
+          "slug": "gradient-9",
+          "gradient": "linear-gradient(to right, #ff5f6d, #ffc371)",
+          "name": "Sweet Morning"
+        },
+        {
+          "slug": "gradient-10",
+          "gradient": "linear-gradient(to right, #000000, #434343)",
+          "name": "Deep Space"
+        }
+      ],
       "palette": [
         {
           "name": "Primary 50",
@@ -189,6 +241,7 @@
         }
       ]
     },
+
     "typography": {
       "customFontSize": true,
       "dropCap": true,
