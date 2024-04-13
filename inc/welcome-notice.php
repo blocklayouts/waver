@@ -4,7 +4,7 @@
  *
  * @package waver
  * @author Yahya Qara
- * @since 1.2.3
+ * @since 1.2.4
  */
 
 namespace waver;
@@ -21,7 +21,7 @@ function waver_welcome_notice() {
 		wp_enqueue_script('jquery');
 
 		// Register and enqueue welcome-notice.js
-		wp_register_script( 'waver-welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '1.2.3', true );
+		wp_register_script( 'waver-welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '1.2.4', true );
 		$welcome_notice_params = array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 			'welcome_notice_security' => wp_create_nonce( 'waver-welcome-notice-nonce' ),

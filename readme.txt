@@ -24,6 +24,12 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 1.2.4
+* Add: gradient colors
+* Update: Tested up to version 6.5
+* Update: Improve landing page subtitle for better clarity and impact
+* Update: Theme URI
+
 = 1.2.3
 * Fix: translation function argument count
 
