@@ -2,7 +2,7 @@
 
 Waver is more than just another WordPress theme – it's a game-changer for anyone looking to build professional-grade websites with ease.
 
-![Frost WordPress Theme](screenshot.png)
+![Waver WordPress Theme](screenshot.png)
 
 ## About
 
