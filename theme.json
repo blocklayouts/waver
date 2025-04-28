@@ -244,8 +244,8 @@
 
     "typography": {
       "customFontSize": true,
+      "defaultFontSizes": false,
       "dropCap": true,
-      "lineHeight": true,
       "fluid": false,
       "fontFamilies": [
         {
@@ -269,73 +269,49 @@
           "name": "x Small",
           "size": "0.75rem",
           "slug": "x-small",
-          "fluid": {
-            "min": "0.75rem",
-            "max": "0.8rem"
-          }
+          "fluid": false
         },
         {
           "name": "Small",
           "size": "0.875rem",
           "slug": "small",
-          "fluid": {
-            "min": "0.875rem",
-            "max": "0.9rem"
-          }
+          "fluid": false
         },
         {
           "name": "Medium",
           "size": "1rem",
           "slug": "medium",
-          "fluid": {
-            "min": "1rem",
-            "max": "1.1rem"
-          }
+          "fluid": false
         },
         {
           "name": "Large",
           "size": "1.125rem",
           "slug": "large",
-          "fluid": {
-            "min": "1.125rem",
-            "max": "1.2rem"
-          }
+          "fluid": false
         },
         {
           "name": "X Large",
           "size": "1.25rem",
           "slug": "x-large",
-          "fluid": {
-            "min": "1.25rem",
-            "max": "1.3rem"
-          }
+          "fluid": false
         },
         {
           "name": "2X Large",
           "size": "1.5rem",
           "slug": "2x-large",
-          "fluid": {
-            "min": "1.5rem",
-            "max": "1.8rem"
-          }
+          "fluid": false
         },
         {
           "name": "3X Large",
           "size": "1.875rem",
           "slug": "3x-large",
-          "fluid": {
-            "min": "1.875rem",
-            "max": "1.9rem"
-          }
+          "fluid": false
         },
         {
           "name": "4X Large",
           "size": "2.25rem",
           "slug": "4x-large",
-          "fluid": {
-            "min": "2.25rem",
-            "max": "2.4rem"
-          }
+          "fluid": false
         }
       ]
     },
@@ -346,13 +322,7 @@
     "spacing": {
       "units": ["%", "em", "px", "rem", "vh", "vw"],
       "customSpacingSize": true,
-      "spacingScale": {
-        "operator": "*",
-        "increment": 0,
-        "steps": 0,
-        "mediumStep": 0,
-        "unit": "px"
-      },
+      "defaultSpacingSizes": false,
       "spacingSizes": [
         {
           "name": "X Small",
