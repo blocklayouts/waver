@@ -24,6 +24,9 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 1.2.6
+* Update: Update waver-notice-welcome.png image
+
 = 1.2.5
 * Update: Update theme URI, version, and compatibility in style.css
 * Update: Improve block styles registration
